@@ -84,26 +84,30 @@ Status code: 200 OK or 204 No Content
 Empty response body is acceptable
 
 
-#Key Learnings
 
-API testing focuses on behavior, not UI output
+Key Learnings:
 
-Status codes are the primary validation point
+- API testing focuses on behavior, not UI output
 
-DELETE requests may return empty bodies
+- Status codes are the primary validation point
 
-Public mock APIs may not strictly enforce data persistence
+- DELETE requests may return empty bodies
+
+- Public mock APIs may not strictly enforce data persistence
 
 
-#Future Improvements
 
-API testing with Postman
+Future Improvements:
 
-Authentication and authorization testing
+- API testing with Postman
 
-API automation using Python and Pytest
+- Authentication and authorization testing
 
-CI/CD integration
+- API automation using Python and Pytest
+
+- CI/CD integration
+
+
 
 
 Author : WAHYU AGUSTIAR
